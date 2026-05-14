@@ -1,0 +1,12 @@
+.health-badge-container {
+  display: inline-block;
+}
+
+.health-score-badge {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

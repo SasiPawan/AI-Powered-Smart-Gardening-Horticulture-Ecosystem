@@ -1,0 +1,202 @@
+.home-page {
+  flex: 1;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 80px 16px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  opacity: 0.95;
+}
+
+.hero-description {
+  font-size: 16px;
+  margin-bottom: 32px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.btn-large {
+  padding: 16px 32px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+/* Features Section */
+.features {
+  padding: 60px 16px;
+}
+
+.features h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.feature-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.feature-card p {
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Supported Plants Section */
+.supported-plants-section {
+  background: #f8f9ff;
+  padding: 60px 16px;
+}
+
+.supported-plants-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.plants-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.plant-showcase-item {
+  background: white;
+  border-radius: 10px;
+  padding: 32px 24px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 2px solid #e0e0e0;
+  transition: all 0.2s;
+}
+
+.plant-showcase-item:hover {
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+}
+
+.plant-emoji {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.plant-showcase-item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.plant-showcase-item p {
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 60px 16px;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.cta-section p {
+  font-size: 18px;
+  margin-bottom: 24px;
+  opacity: 0.95;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 16px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+  }
+
+  .features h2,
+  .supported-plants-section h2,
+  .cta-section h2 {
+    font-size: 24px;
+  }
+
+  .features-grid,
+  .plants-showcase {
+    gap: 16px;
+  }
+}

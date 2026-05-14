@@ -1,0 +1,9 @@
+{
+  "plant_name": "Tomato",
+  "plant_confidence": 0.94,
+  "disease_name": "Early Blight",
+  "disease_confidence": 0.89,
+  "is_healthy": false,
+  "summary": "Possible early blight detected on tomato leaf. Brown spots with concentric rings are characteristic of this fungal disease.",
+  "recommended_next_step": "Reduce leaf wetness and inspect surrounding leaves. Remove affected leaves and apply fungicide if available."
+}

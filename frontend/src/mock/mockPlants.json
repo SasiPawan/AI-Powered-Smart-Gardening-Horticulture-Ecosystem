@@ -1,0 +1,104 @@
+[
+  {
+    "id": "plant_001",
+    "nickname": "Balcony Tomato",
+    "plant_name": "Tomato",
+    "disease_status": "Early Blight",
+    "health_score": 62,
+    "last_watered": "2026-05-13",
+    "growth_logs": [
+      {
+        "id": "log_001",
+        "date": "2026-05-01",
+        "description": "Initial planting",
+        "plant_height": 15,
+        "leaf_count": 8,
+        "observation": "Plant looks healthy, no visible issues."
+      },
+      {
+        "id": "log_002",
+        "date": "2026-05-08",
+        "description": "Growth check",
+        "plant_height": 22,
+        "leaf_count": 12,
+        "observation": "Good growth. Noticed brown spots on lower leaves."
+      },
+      {
+        "id": "log_003",
+        "date": "2026-05-13",
+        "description": "Disease observation",
+        "plant_height": 28,
+        "leaf_count": 15,
+        "observation": "Early blight confirmed. Started treatment."
+      }
+    ]
+  },
+  {
+    "id": "plant_002",
+    "nickname": "Garden Potato",
+    "plant_name": "Potato",
+    "disease_status": "Healthy",
+    "health_score": 88,
+    "last_watered": "2026-05-14",
+    "growth_logs": [
+      {
+        "id": "log_004",
+        "date": "2026-04-20",
+        "description": "Initial planting",
+        "plant_height": 0,
+        "leaf_count": 0,
+        "observation": "Seed potatoes planted in soil."
+      },
+      {
+        "id": "log_005",
+        "date": "2026-05-05",
+        "description": "Sprouting",
+        "plant_height": 10,
+        "leaf_count": 6,
+        "observation": "Sprouts emerging from soil."
+      },
+      {
+        "id": "log_006",
+        "date": "2026-05-14",
+        "description": "Healthy growth",
+        "plant_height": 35,
+        "leaf_count": 18,
+        "observation": "Excellent growth. Plant looking very healthy."
+      }
+    ]
+  },
+  {
+    "id": "plant_003",
+    "nickname": "Field Corn",
+    "plant_name": "Corn/Maize",
+    "disease_status": "Healthy",
+    "health_score": 92,
+    "last_watered": "2026-05-14",
+    "growth_logs": [
+      {
+        "id": "log_007",
+        "date": "2026-05-01",
+        "description": "Initial planting",
+        "plant_height": 5,
+        "leaf_count": 3,
+        "observation": "Seeds germinated. Initial growth."
+      },
+      {
+        "id": "log_008",
+        "date": "2026-05-10",
+        "description": "V3 stage",
+        "plant_height": 20,
+        "leaf_count": 5,
+        "observation": "Healthy development, strong stalk."
+      },
+      {
+        "id": "log_009",
+        "date": "2026-05-14",
+        "description": "Vigorous growth",
+        "plant_height": 35,
+        "leaf_count": 7,
+        "observation": "Excellent growth trajectory. No issues."
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+# Vite build output
+dist/
+dist-ssr/
+*.local
+
+# npm
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+coverage/
+.nyc_output/
