@@ -1,0 +1,26 @@
+{
+  "plant_name": "Tomato",
+  "health_status": "Needs Attention",
+  "health_score": 62,
+  "watering_advice": "Water when top 2 cm of soil feels dry. Tomatoes prefer consistent moisture but not waterlogged soil. Water at the base to avoid leaf disease.",
+  "fertilizer_advice": "Use balanced NPK fertilizer (e.g., 10-10-10) once every 2 weeks. Tomatoes need adequate potassium for fruit development.",
+  "soil_advice": "Well-draining loamy soil with compost is recommended. Add organic matter to improve water retention and nutrient content.",
+  "sunlight_advice": "Provide 6 to 8 hours of sunlight daily. Tomatoes are sun-loving plants and need sufficient light for proper fruit development.",
+  "care_tips": [
+    "Provide sturdy support or stakes for the plant",
+    "Prune suckers to direct energy to fruit production",
+    "Ensure proper air circulation to reduce disease risk",
+    "Monitor for common pests like tomato hornworms"
+  ],
+  "warnings": [
+    "Early blight detected - fungal infection present",
+    "Increase air circulation around affected leaves",
+    "Avoid overhead watering to prevent disease spread"
+  ],
+  "next_steps": [
+    "Remove lower infected leaves to improve air flow",
+    "Apply appropriate fungicide treatment",
+    "Monitor plant daily for disease progression",
+    "Log observations in growth history"
+  ]
+}

@@ -1,0 +1,158 @@
+.care-card {
+  animation: slideUp 0.4s ease;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.care-section {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #eee;
+}
+
+.care-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.care-section h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.care-section p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.care-section ul,
+.care-section ol {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.care-section li {
+  margin-bottom: 8px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.care-section li:last-child {
+  margin-bottom: 0;
+}
+
+/* Health Display */
+.health-display {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: #f8f9ff;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.health-score {
+  font-size: 48px;
+  font-weight: 700;
+  color: #667eea;
+  min-width: 80px;
+  text-align: center;
+}
+
+.health-info {
+  flex: 1;
+}
+
+.health-status {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.health-bar {
+  height: 12px;
+  background: #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.health-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #28a745, #20c997);
+  transition: width 0.3s ease;
+  border-radius: 6px;
+}
+
+/* Warnings Section */
+.care-section.warnings {
+  background: #fff5f5;
+  border-left: 4px solid #dc3545;
+  padding: 16px;
+  border-radius: 6px;
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+
+.care-section.warnings h4 {
+  color: #dc3545;
+}
+
+.care-section.warnings li {
+  color: #721c24;
+}
+
+/* Tips Section */
+.care-section.tips {
+  background: #f0f7ff;
+  border-left: 4px solid #0dcaf0;
+  padding: 16px;
+  border-radius: 6px;
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+
+.care-section.tips h4 {
+  color: #0c5460;
+}
+
+/* Next Steps Section */
+.care-section.next-steps {
+  background: #f9f3ff;
+  border-left: 4px solid #764ba2;
+  padding: 16px;
+  border-radius: 6px;
+  border-bottom: none;
+}
+
+.care-section.next-steps h4 {
+  color: #764ba2;
+}
+
+@media (max-width: 768px) {
+  .health-display {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .health-score {
+    font-size: 36px;
+  }
+
+  .care-section h4 {
+    font-size: 15px;
+  }
+}
